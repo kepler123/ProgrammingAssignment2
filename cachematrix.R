@@ -27,7 +27,13 @@
 ## the next time the cacheSolve is invoked.
 ##
 
-## Example
+## *** Assumptions ***
+## The implementation assumes that the input matrix is always invertible.
+## This implies square, invertible matrix, only.
+
+##
+## *** Example ***
+##
 ## m <- matrix(c(4, 7, 2, 6), nrow=2, ncol=2)
 ## > m
 ## [,1] [,2]
